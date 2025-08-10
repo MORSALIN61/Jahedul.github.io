@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHY 3103 — Course Page (Sample)</title>
+  <style>
+    :root{ --bg:#f8f9fb; --card:#fff; --accent:#0b5ed7; --muted:#666; --maxw:900px }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;margin:0;background:var(--bg);color:#111}
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .author{font-weight:700}
+    nav{margin-top:12px}
+    nav a{margin-right:12px;color:var(--accent);text-decoration:none}
+    .card{background:var(--card);padding:18px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.06);margin-top:18px}
+    h1,h2{margin:6px 0}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    ul.clean{padding-left:1.05rem}
+    table{width:100%;border-collapse:collapse}
+    td,th{padding:6px;border-bottom:1px solid #eee}
+    footer{margin-top:22px;color:#888;font-size:0.9rem;text-align:center}
+    a.btn{display:inline-block;padding:6px 10px;border-radius:6px;background:var(--accent);color:white;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <div class="author">Dr. Mohammad Abdur Rashid</div>
+        <div class="muted">Assistant Professor — Department of Physics, Jashore University of Science and Technology</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#syllabus">Syllabus</a>
+      <a href="#notes">Notes/Slides</a>
+      <a href="#coursework">Coursework</a>
+      <a href="#references">References</a>
+      <span class="muted" style="float:right">Last updated: August 09, 2025</span>
+    </nav>
+
+    <div class="card grid">
+      <main>
+        <h1 id="home">Course: PHY 3103 — Quantum Mechanics</h1>
+        <p class="muted">Bachelor of Science (Hons) in Physics — 3<sup>rd</sup> Year, 1<sup>st</sup> Semester — Academic Year 2023-2024</p>
+
+        <section class="card">
+          <h2 id="syllabus">Course Details</h2>
+          <p><strong>Course Code:</strong> PHY 3103<br>
+          <strong>Credit:</strong> 03</p>
+
+          <p>All students attending the course for credit must fill the online check-in form with a pseudonym which will be used in posting their coursework and class test results. No coursework or class test result will be published without a pseudonym.</p>
+
+          <h3>Prerequisites</h3>
+          <p>Good foundation in calculus, differential equations, linear algebra, and complex numbers is essential.</p>
+        </section>
+
+        <section class="card">
+          <h2 id="notes">Lecture Notes</h2>
+          <ul class="clean">
+            <li><a href="#">QMLN01: The Schr&ouml;dinger equation (pdf)</a></li>
+            <li><a href="#">QMLN02: Time evolution of normalized wave function (pdf)</a></li>
+            <li><a href="#">QMLN03: Hermitian operator (pdf)</a></li>
+            <li><a href="#">QMLN04: Expectation values of operators (pdf)</a></li>
+          </ul>
+
+          <h3>Lecture Slides</h3>
+          <ul class="clean">
+            <li><a href="#">Introduction (slides)</a></li>
+            <li><a href="#">The wave function (slides)</a></li>
+            <li><a href="#">Time evolution of wave function (slides)</a></li>
+            <li><a href="#">Infinite square-well potential (slides)</a></li>
+          </ul>
+        </section>
+
+        <section class="card" id="coursework">
+          <h2>Quizzes / Assignments</h2>
+          <ul class="clean">
+            <li><a class="btn" href="#">Assignment / coursework cover sheet</a></li>
+            <li><a href="#">Class Test #1: Question</a></li>
+            <li><a href="#">Class Test #2: Question</a></li>
+            <li><a href="#">Assignment #1: Question</a></li>
+            <li><a href="#">Supplementary Practice Questions</a></li>
+            <li><a href="#">Class Test Result</a></li>
+          </ul>
+        </section>
+
+        <section class="card" id="related">
+          <h2>Related Materials from Web</h2>
+          <ul class="clean">
+            <li><a href="https://www.youtube.com/playlist?list=PL">MIT 8.04 Quantum Physics I — YouTube Playlist</a></li>
+            <li><a href="#">Double Slit Experiment explained — Video</a></li>
+            <li><a href="#">Quantum tunnel effect — Video</a></li>
+          </ul>
+        </section>
+
+        <section class="card" id="references">
+          <h2>References</h2>
+          <ul class="clean">
+            <li>Quantum Mechanics — Nouredine Zettili</li>
+            <li>Quantum Mechanics — B.H. Bransden &amp; C.J. Joachain</li>
+            <li>Introduction To Quantum Mechanics — David J. Griffiths</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Course Convenor</h3>
+          <p><strong>Jahedul Islam</strong><br>
+          Room # 228<br>
+          Sir Jagadish Chandra Bose Academic Building<br>
+          <a href="mailto:j.islam@just.edu.bd">j.islam@just.edu.bd</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Lecture Schedule</h3>
+          <table>
+            <thead><tr><th>Day</th><th>Time</th><th>Room</th></tr></thead>
+            <tbody>
+              <tr><td>Sunday</td><td>11:20 - 12:10</td><td>502</td></tr>
+              <tr><td>Monday</td><td>12:20 - 13:10</td><td>-</td></tr>
+              <tr><td>Tuesday</td><td>10:20 - 11:10</td><td>-</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      Copyright © 2025 Jahedul Islam
+    </footer>
+  </div>
+</body>
+</html>
